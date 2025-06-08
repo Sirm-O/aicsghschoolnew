@@ -1,6 +1,6 @@
 import React from 'react';
 import { FileText, Calendar, CheckCircle, Phone, Users, DollarSign, Clock, MapPin } from 'lucide-react';
-import useCMSContent from '../../lib/useCMSContent';
+import useCMSContent from '../lib/useCMSContent';
 
 const AdmissionsPage = () => {
   const { content: pageContent, loading: pageLoading } = useCMSContent('/content/pages/admissions.json');
