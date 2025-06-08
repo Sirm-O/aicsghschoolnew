@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { User, Mail, GraduationCap, BookOpen, Award, Phone, MapPin } from 'lucide-react';
-import useCMSContent from '../../lib/useCMSContent';
+import useCMSContent from '../lib/useCMSContent';
 
 const FacultyPage = () => {
   const { content: pageContent, loading: pageLoading } = useCMSContent('/content/pages/faculty.json');
