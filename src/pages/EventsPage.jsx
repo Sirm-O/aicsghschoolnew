@@ -1,6 +1,6 @@
 import React from 'react';
 import { Calendar, MapPin, Clock, Users, Phone } from 'lucide-react';
-import useCMSContent from '../../lib/useCMSContent';
+import useCMSContent from '../lib/useCMSContent';
 
 const EventsPage = () => {
   const { content: pageContent, loading: pageLoading } = useCMSContent('/content/pages/events.json');
