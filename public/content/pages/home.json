@@ -1,0 +1,48 @@
+{
+  "title": "Welcome to Sengani Girls School",
+  "description": "Empowering young women through quality education and holistic development since 1985.",
+  "hero": {
+    "title": "Welcome to Sengani Girls School",
+    "subtitle": "Empowering young women through quality education and holistic development",
+    "cta": "Learn More"
+  },
+  "introduction": {
+    "title": "Nurturing Excellence",
+    "description": "Sengani Girls School is dedicated to providing a supportive and enriching environment where young women can develop their academic abilities, character, and leadership skills."
+  },
+  "features": [
+    {
+      "icon": "Star",
+      "title": "Academic Excellence",
+      "description": "Comprehensive curriculum designed to foster critical thinking and academic achievement."
+    },
+    {
+      "icon": "BookOpen",
+      "title": "Holistic Education",
+      "description": "Balanced approach combining academics with character development and life skills."
+    },
+    {
+      "icon": "Users",
+      "title": "Supportive Community",
+      "description": "Nurturing environment where every student feels valued and supported."
+    },
+    {
+      "icon": "Award",
+      "title": "Leadership Development",
+      "description": "Opportunities to develop leadership skills and confidence for future success."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Sengani Girls School provided me with the foundation I needed to succeed in life. The teachers were supportive and the environment was nurturing.",
+      "author": "Priya Sharma",
+      "role": "Alumni, Class of 2018"
+    },
+    {
+      "quote": "The holistic approach to education at Sengani has helped my daughter develop both academically and personally.",
+      "author": "Mrs. Lakshmi Devi",
+      "role": "Parent"
+    }
+  ]
+}
+

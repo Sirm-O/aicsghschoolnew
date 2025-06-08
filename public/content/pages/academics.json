@@ -1,0 +1,48 @@
+{
+  "title": "Academics",
+  "description": "Comprehensive education programs designed to nurture academic excellence and critical thinking.",
+  "curriculum": {
+    "title": "Our Curriculum",
+    "description": "Our comprehensive curriculum is designed to provide students with a strong foundation in core subjects while encouraging critical thinking, creativity, and problem-solving skills. We follow the state board curriculum enhanced with innovative teaching methodologies and practical learning experiences."
+  },
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "icon": "Calculator",
+      "description": "Building strong analytical and problem-solving skills through comprehensive mathematical education."
+    },
+    {
+      "name": "Science",
+      "icon": "Microscope",
+      "description": "Exploring the wonders of physics, chemistry, and biology through hands-on experiments and research."
+    },
+    {
+      "name": "Social Studies",
+      "icon": "Globe",
+      "description": "Understanding history, geography, and social sciences to develop global awareness."
+    },
+    {
+      "name": "Arts",
+      "icon": "Palette",
+      "description": "Fostering creativity and self-expression through visual arts, crafts, and design."
+    },
+    {
+      "name": "Music",
+      "icon": "Music",
+      "description": "Developing musical talents and appreciation through vocal and instrumental training."
+    },
+    {
+      "name": "Languages",
+      "icon": "BookOpen",
+      "description": "Mastering Tamil, English, and Hindi to enhance communication and cultural understanding."
+    }
+  ],
+  "achievements": [
+    "100% pass rate in state board examinations for the past 5 years",
+    "Top 10 ranking in district academic performance",
+    "Multiple students selected for state-level science exhibitions",
+    "Excellence in inter-school debate and quiz competitions",
+    "Outstanding performance in mathematics olympiads"
+  ]
+}
+
