@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Calendar, User, Tag, ChevronRight, Clock, Eye } from 'lucide-react';
-import useCMSContent from '../../lib/useCMSContent';
+import useCMSContent from '../lib/useCMSContent';
 
 const NewsPage = () => {
   const { content: pageContent, loading: pageLoading } = useCMSContent('/content/pages/news.json');
