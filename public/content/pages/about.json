@@ -1,0 +1,39 @@
+{
+  "title": "About Sengani Girls School",
+  "description": "Empowering young women through quality education and holistic development since 1985.",
+  "history": {
+    "title": "Our History",
+    "content": "Established in 1985, Sengani Girls School has been a beacon of educational excellence in the region for nearly four decades. Founded with the vision of empowering young women through quality education, our school has grown from a small institution to a respected center of learning that has shaped the lives of thousands of students."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "To provide quality education that empowers young women to become confident, capable, and compassionate leaders who contribute positively to society. We are committed to fostering academic excellence, character development, and holistic growth in a supportive and nurturing environment."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "content": "To be a leading educational institution that transforms lives and communities by nurturing empowered, educated, and ethical young women who are prepared to face the challenges of the 21st century with confidence and competence."
+  },
+  "values": [
+    {
+      "title": "Excellence",
+      "description": "We strive for the highest standards in all aspects of education and personal development."
+    },
+    {
+      "title": "Integrity",
+      "description": "We uphold honesty, transparency, and ethical behavior in all our interactions."
+    },
+    {
+      "title": "Empowerment",
+      "description": "We believe in empowering our students to reach their full potential and become leaders."
+    },
+    {
+      "title": "Compassion",
+      "description": "We foster a caring and supportive environment where every individual is valued."
+    },
+    {
+      "title": "Innovation",
+      "description": "We embrace new ideas and approaches to enhance learning and growth."
+    }
+  ]
+}
+

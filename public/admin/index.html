@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sengani Girls School - Content Manager</title>
+    <!-- Include the Decap CMS script -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <style>
+      /* Custom styling for the admin interface */
+      body {
+        font-family: 'Exo 2', sans-serif;
+        background-color: #0B0B3B;
+        color: #F8F8FF;
+      }
+      .header {
+        background-color: #0B0B3B;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 1px solid #FFD700;
+      }
+      .header h1 {
+        color: #FFD700;
+        margin: 0;
+      }
+      /* Custom loader styling */
+      .nc-app-loading-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .custom-loader {
+        border: 5px solid rgba(102, 51, 153, 0.3);
+        border-radius: 50%;
+        border-top: 5px solid #FFD700;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Sengani Girls School - Content Manager</h1>
+    </div>
+    
+    <!-- Custom loading animation -->
+    <div class="nc-app-loading-container">
+      <div class="custom-loader"></div>
+      <p>Loading Content Management System...</p>
+    </div>
+    
+    <script>
+      // Add custom preview styles
+      CMS.registerPreviewStyle('/admin/preview.css');
+      
+      // Initialize Netlify Identity
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.reload();
+            });
+          }
+        });
+        
+        window.netlifyIdentity.on("logout", () => {
+          document.location.reload();
+        });
+      }
+      
+      // Auto-open login modal if not authenticated
+      document.addEventListener('DOMContentLoaded', function() {
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.init();
+        }
+      });
+    </script>
+  </body>
+</html>
+

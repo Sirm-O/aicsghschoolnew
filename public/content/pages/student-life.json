@@ -1,0 +1,52 @@
+{
+  "title": "Student Life",
+  "description": "A vibrant and enriching experience beyond academics.",
+  "holistic": {
+    "title": "Holistic Development",
+    "description": "At Sengani Girls School, we believe in the complete development of our students. Beyond academics, we focus on building character, developing life skills, and nurturing talents through various co-curricular and extracurricular activities."
+  },
+  "sports": {
+    "title": "Sports & Physical Education",
+    "description": "Physical fitness and sportsmanship are integral parts of our curriculum. We encourage students to participate in various sports and maintain a healthy lifestyle.",
+    "activities": [
+      "Basketball",
+      "Volleyball",
+      "Badminton",
+      "Athletics",
+      "Yoga",
+      "Traditional Games"
+    ]
+  },
+  "clubs": [
+    {
+      "name": "Science Club",
+      "icon": "Zap",
+      "description": "Exploring scientific concepts through experiments, projects, and science fairs."
+    },
+    {
+      "name": "Literary Club",
+      "icon": "BookOpen",
+      "description": "Developing writing skills, organizing debates, and celebrating literature."
+    },
+    {
+      "name": "Art Club",
+      "icon": "Palette",
+      "description": "Expressing creativity through painting, crafts, and visual arts projects."
+    },
+    {
+      "name": "Music Club",
+      "icon": "Music",
+      "description": "Learning musical instruments, vocal training, and organizing cultural performances."
+    },
+    {
+      "name": "Community Service",
+      "icon": "Heart",
+      "description": "Engaging in social service activities and community development projects."
+    }
+  ],
+  "boarding": {
+    "title": "Boarding Life",
+    "description": "Our boarding facilities provide a safe, comfortable, and nurturing environment for students who come from distant places. The hostel life teaches independence, responsibility, and builds lifelong friendships while ensuring academic support and personal care."
+  }
+}
+
